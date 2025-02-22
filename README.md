@@ -126,7 +126,3 @@ Contributions are welcome! If you'd like to enhance this project, please follow 
 - [statsmodels](https://www.statsmodels.org/)
 
 *Inspired by tutorials and resources from the data science community.*
-
----
-
-*This README template is adapted to provide a comprehensive overview of the Time Series Data Visualization project, ensuring clarity and ease of replication.* 
