@@ -6,7 +6,7 @@ from statsmodels.graphics.tsaplots import plot_acf
 from statsmodels.tsa.stattools import adfuller
 
 # reading the dataset using read_csv
-df = pd.read_csv("C:\Coding Files\Projects\TimeSeriesProject\stock_data.csv", parse_dates=True, index_col="Date")
+df = pd.read_csv("stock_data.csv", parse_dates=True, index_col="Date")
 
 # displaying the first five rows of dataset
 df.head()
