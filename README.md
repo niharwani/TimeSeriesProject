@@ -92,29 +92,21 @@ Follow the steps below to run the time series visualization script:
    - Decompose the series into trend, seasonal, and residual components.
    - Display the resulting plots for analysis.
 
-## Results
+## Visualizations
+Here are the key visualizations used in the analysis:
 
-Upon execution, the script produces several plots:
+1. **ACF Plot** (`acf_plot.png`)
+   - Displays the autocorrelation function (ACF) of the time series to identify seasonal and lag-based patterns.
 
-1. **Original Time Series Plot:**
+2. **Original vs Differenced Time Series** (`original_vs_differenced_high.png`)
+   - Compares the original time series with its differenced version to remove trends and make it stationary.
 
-   ![Original Time Series](images/original_time_series.png)
+3. **Original vs Moving Average (120-Window)** (`original_vs_moving_avg_120.png`)
+   - Shows the original time series alongside a moving average with a window of 120, highlighting long-term trends.
 
-2. **Decomposed Components:**
+4. **Monthly Resampling - Highest Price** (`monthly_resampling_highest_price.png`)
+   - Aggregates the data at a monthly level and plots the highest price observed in each month.
 
-   - **Trend Component:**
-
-     ![Trend Component](images/trend_component.png)
-
-   - **Seasonal Component:**
-
-     ![Seasonal Component](images/seasonal_component.png)
-
-   - **Residual Component:**
-
-     ![Residual Component](images/residual_component.png)
-
-*Note: Ensure that the `images` directory contains the respective plot images.*
 
 ## Contributing
 
